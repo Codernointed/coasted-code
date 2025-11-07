@@ -53,8 +53,8 @@
 }
 
 .impact-art {
-  width: 280px;
-  height: 280px;
+  width: 380px;
+  height: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,8 +119,8 @@
   }
 
   .impact-art {
-    width: 130%;
-    height: 450px;
+    width: 320px;
+    height: 300px;
   }
 
   .impact-heading {
@@ -143,8 +143,8 @@
   }
 
   .impact-art {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
   }
 
   .impact-deco--left {

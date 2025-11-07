@@ -5,7 +5,7 @@ const features = [
     title: 'Expert Instructors',
     description:
       'Industry professionals and passionate educators guide every session with hands-on mentorship and real-world context.',
-    image: '/coasted_code_assets/Expert%20Instructors.png',
+    image: 'public/coasted_code_assets/expert_instructors.png',
     alt: 'Illustration of a friendly robot instructor holding a tablet',
   },
   {
