@@ -5,7 +5,7 @@ const features = [
     title: "Mentors Who've Been There, Built That",
     description:
       'Industry professionals and passionate educators guide every session with hands-on mentorship and real-world context.',
-    image: 'public/coasted_code_assets/expert_instructors.png',
+    image: '/coasted_code_assets/expert_instructors.png',
     alt: 'Illustration of a friendly robot instructor holding a tablet',
   },
   {
