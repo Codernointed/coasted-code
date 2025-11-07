@@ -2,21 +2,21 @@ import './Highlights.css'
 
 const features = [
   {
-    title: 'Expert Instructors',
+    title: "Mentors Who've Been There, Built That",
     description:
       'Industry professionals and passionate educators guide every session with hands-on mentorship and real-world context.',
     image: 'public/coasted_code_assets/expert_instructors.png',
     alt: 'Illustration of a friendly robot instructor holding a tablet',
   },
   {
-    title: 'Hands-On Projects',
+    title: 'Projects That Actually Matter',
     description:
       'Learners build robotics and AI creations from day one, transforming curiosity into confident skills through practice.',
     image: '/coasted_code_assets/Hands-On%20Projects.png',
     alt: 'Circuit board illustration representing hands-on STEM projects',
   },
   {
-    title: 'Future-Ready Skills',
+    title: 'Skills That Outlast the Classroom',
     description:
       'We nurture critical thinking, collaboration, and creativity so students are prepared for every opportunity ahead.',
     image: '/coasted_code_assets/Future-Ready%20Skills.png',
@@ -29,10 +29,9 @@ const Highlights = () => {
     <section className="impact" id="highlights">
       <div className="impact-inner">
         <div className="impact-heading">
-          <h2>How Coasted Code Sparks Bright Futures</h2>
+          <h2>Building the Inventors Nobody's Met Yet</h2>
           <p>
-            Our learning paths blend expert coaching, immersive projects, and future-focused skills so young innovators thrive
-            in every classroom and beyond.
+            We build experiences, where young minds get their hands dirty, solve real problems, and discover what they're capable of becoming.
           </p>
         </div>
         <div className="impact-grid">
