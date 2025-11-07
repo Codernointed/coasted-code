@@ -1,0 +1,18 @@
+#root {
+  min-height: 100vh;
+  background-color: #f7fafc;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #0a0a0a;
+  background-color: #f7fafc;
+}
+
+.app main {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
