@@ -150,14 +150,20 @@
     order: 2;
     text-align: center;
     align-items: center;
+    max-width: 100%;
   }
 
   .hero h1 {
-    font-size: 44px;
+    font-size: 38px;
+  }
+
+  .hero-line--primary {
+    white-space: normal;
   }
 
   .hero-actions {
     justify-content: center;
+    width: 100%;
   }
 
   .hero-footnote {
@@ -168,18 +174,40 @@
     order: 1;
     justify-content: center;
   }
+
+  .hero-visual img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 0;
+    transform: translateY(0) scale(1);
+  }
 }
 
 @media (max-width: 640px) {
   .hero {
-    padding: 110px 24px 72px;
+    padding: 100px 20px 60px;
   }
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
   }
 
   .hero-primary {
     width: 100%;
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+
+  .hero-visual img {
+    max-width: 300px;
+  }
+
+  .hero-footnote {
+    font-size: 14px;
   }
 }
