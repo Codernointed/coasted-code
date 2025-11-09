@@ -110,6 +110,11 @@
   .impact-heading h2 {
     font-size: 38px;
   }
+
+  .impact-art {
+    width: 260px;
+    height: 260px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -119,12 +124,20 @@
   }
 
   .impact-art {
-    width: 320px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
   }
 
   .impact-heading {
     margin-bottom: 60px;
+  }
+
+  .impact-card h3 {
+    font-size: 22px;
+  }
+
+  .impact-card p {
+    font-size: 16px;
   }
 }
 

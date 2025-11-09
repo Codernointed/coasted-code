@@ -181,7 +181,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .spline-section::before {
     display: none;
   }
@@ -201,12 +201,14 @@
     align-items: center;
   }
 
+  .spline-visual {
+    height: 450px;
+  }
+}
+
+@media (max-width: 900px) {
   .spline-content h2 {
     font-size: 32px;
-  }
-
-  .spline-visual {
-    height: 400px;
   }
 }
 
