@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-contact">
-          <h4 className="footer-cta-heading">Want to drop a line, get support, or rant about our cheesy jokes? Email:</h4>
+          <h4 className="footer-cta-heading">Have questions or need support? Get in touch with us:</h4>
           <a href="mailto:info@coastedcode.com" className="footer-email">
             info@coastedcode.com
           </a>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Menu, X } from 'lucide-react'
 import './Header.css'
 
 const Header = () => {
@@ -12,17 +13,14 @@ const Header = () => {
           <span>Coasted Code</span>
         </a>
         
-        <button 
-          className="mobile-menu-toggle" 
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
         <nav className={`main-nav ${menuOpen ? 'open' : ''}`} aria-label="Primary navigation">
+          <button 
+            className="mobile-close-btn"
+            onClick={() => setMenuOpen(false)}
+            aria-label="Close menu"
+          >
+            <X size={28} />
+          </button>
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#courses" onClick={() => setMenuOpen(false)}>Courses</a>
           <a href="#schools" onClick={() => setMenuOpen(false)}>For Schools</a>
@@ -37,8 +35,17 @@ const Header = () => {
           <a className="primary-cta" href="#enroll">
             Enroll Now
           </a>
+          
+          <button 
+            className={`mobile-menu-toggle ${menuOpen ? 'active' : ''}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
       </div>
+      {menuOpen && <div className="menu-overlay" onClick={() => setMenuOpen(false)} />}
     </header>
   )
 }
